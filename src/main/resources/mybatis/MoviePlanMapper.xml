@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jdbdy.handle.mapper.MoviePlanMapper">
+  <resultMap id="BaseResultMap" type="com.jdbdy.handle.entity.MoviePlan">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="plan_id" jdbcType="INTEGER" property="planId" />
+    <result column="movie_id" jdbcType="VARCHAR" property="movieId" />
+    <result column="plan_time" jdbcType="VARCHAR" property="planTime" />
+    <result column="read_result" jdbcType="VARCHAR" property="readResult" />
+    <result column="show_order" jdbcType="INTEGER" property="showOrder" />
+  </resultMap>
+</mapper>

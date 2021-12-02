@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jdbdy.handle.mapper.MovieShowInfoMapper">
+  <resultMap id="BaseResultMap" type="com.jdbdy.handle.entity.MovieShowInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="show_id" jdbcType="INTEGER" property="showId" />
+    <result column="movie_id" jdbcType="VARCHAR" property="movieId" />
+    <result column="show_time" jdbcType="TIMESTAMP" property="showTime" />
+    <result column="end_time" jdbcType="TIMESTAMP" property="endTime" />
+    <result column="see_people" jdbcType="INTEGER" property="seePeople" />
+    <result column="remark" jdbcType="VARCHAR" property="remark" />
+  </resultMap>
+</mapper>
